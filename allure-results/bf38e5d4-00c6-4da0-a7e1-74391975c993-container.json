@@ -1,0 +1,1 @@
+{"uuid":"bf38e5d4-00c6-4da0-a7e1-74391975c993","name":"com.student.tests.CurdTest","children":["b3d0620b-3009-4837-ae62-099c725a66ec"],"befores":[{"name":"initUrl","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1576516664538,"stop":1576516665781}],"afters":[],"links":[],"start":1576516664475,"stop":1576516666837}

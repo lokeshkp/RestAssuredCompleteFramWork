@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="5013" started-at="2019-12-15T17:50:53 IST" finished-at="2019-12-15T17:50:58 IST">
+    <groups>
+      <group name="regTest">
+        <method signature="CurdTest.createNewStudent()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="createNewStudent" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.getAllStudents()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="getAllStudents" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.testThree()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="testThree" class="com.student.tests.CurdTest"/>
+      </group> <!-- regTest -->
+      <group name="funTest">
+        <method signature="CurdTest.createNewStudent()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="createNewStudent" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.getAllStudents()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="getAllStudents" class="com.student.tests.CurdTest"/>
+      </group> <!-- funTest -->
+    </groups>
+    <test name="Test" duration-ms="5013" started-at="2019-12-15T17:50:53 IST" finished-at="2019-12-15T17:50:58 IST">
+      <class name="com.student.tests.CurdTest">
+        <test-method status="PASS" signature="initUrl()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="initUrl" is-config="true" duration-ms="1071" started-at="2019-12-15T17:50:53 IST" finished-at="2019-12-15T17:50:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initUrl -->
+        <test-method status="PASS" signature="createNewStudent()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="createNewStudent" duration-ms="3592" started-at="2019-12-15T17:50:54 IST" description="This is to test Create &amp; Verify a new student" finished-at="2019-12-15T17:50:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudent -->
+        <test-method status="PASS" signature="getAllStudents()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="getAllStudents" duration-ms="194" started-at="2019-12-15T17:50:57 IST" description="This is to test get all students from the database" finished-at="2019-12-15T17:50:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStudents -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.student.tests.CurdTest@3b65e559]" name="testThree" duration-ms="6" started-at="2019-12-15T17:50:58 IST" finished-at="2019-12-15T17:50:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- com.student.tests.CurdTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

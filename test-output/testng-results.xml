@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5878" started-at="2019-12-16T23:10:21 IST" finished-at="2019-12-16T23:10:27 IST">
+    <groups>
+      <group name="regTest">
+        <method signature="CurdTest.createNewStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="createNewStudent" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.getAllStudents()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="getAllStudents" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.testThree()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="testThree" class="com.student.tests.CurdTest"/>
+      </group> <!-- regTest -->
+      <group name="funTest">
+        <method signature="CurdTest.createNewStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="createNewStudent" class="com.student.tests.CurdTest"/>
+        <method signature="CurdTest.getAllStudents()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="getAllStudents" class="com.student.tests.CurdTest"/>
+      </group> <!-- funTest -->
+    </groups>
+    <test name="Default test" duration-ms="5878" started-at="2019-12-16T23:10:21 IST" finished-at="2019-12-16T23:10:27 IST">
+      <class name="com.student.tests.CurdTest">
+        <test-method status="PASS" signature="initUrl()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="initUrl" is-config="true" duration-ms="1213" started-at="2019-12-16T23:10:21 IST" finished-at="2019-12-16T23:10:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initUrl -->
+        <test-method status="PASS" signature="createNewStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="createNewStudent" duration-ms="3477" started-at="2019-12-16T23:10:23 IST" description="This is to test Create &amp; Verify a new student" data-provider="getExcelData" finished-at="2019-12-16T23:10:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthik1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ka1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ak@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Computers]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudent -->
+        <test-method status="PASS" signature="createNewStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="createNewStudent" duration-ms="86" started-at="2019-12-16T23:10:26 IST" description="This is to test Create &amp; Verify a new student" data-provider="getExcelData" finished-at="2019-12-16T23:10:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pavani2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kp2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz@gamil.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Science]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Robotics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudent -->
+        <test-method status="PASS" signature="createNewStudent(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="createNewStudent" duration-ms="76" started-at="2019-12-16T23:10:26 IST" description="This is to test Create &amp; Verify a new student" data-provider="getExcelData" finished-at="2019-12-16T23:10:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pavani3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kp3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lok@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maths]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Trignometer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewStudent -->
+        <test-method status="PASS" signature="getAllStudents()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="getAllStudents" duration-ms="167" started-at="2019-12-16T23:10:26 IST" description="This is to test get all students from the database" finished-at="2019-12-16T23:10:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStudents -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.student.tests.CurdTest@30cdae70]" name="testThree" duration-ms="6" started-at="2019-12-16T23:10:26 IST" finished-at="2019-12-16T23:10:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- com.student.tests.CurdTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
