@@ -1,0 +1,12 @@
+Jenkins-Installation & Configuration with Allure
+------------------------------------------------
+1. Install jenkins.jar from jenkins site and execute the following commonad "java -jar jenkins.war --httpPort=9090"
+2. Install HTML-Publisher & Allure-Jekins plugins,
+3. Navigate to Global Tool Configuration --> Click "Allure Commandline installations...",
+4. Make sure Allure Command Line Name (i.e "lokeshAllure") and install automatically check box,
+5. Select Maven version then Apply and Save.
+6. Create a new Job (i.eFree Style) and select Source Code Management as Git,
+7. Provide github repositary URL (https://github.com/lokeshkp/RestAssuredCompleteFramWork.git) with credentials,
+8. Select Build Tab and enter "clean test" at goal text box also provide pom file path (i.e RestAssuredCompleteFramWork/pom.xml),
+9. Then select Post-build Actions tab and provide results path (i.e **/target/allure-results),
+10. Click Add post-build action as "Allure Report", apply & save it.
